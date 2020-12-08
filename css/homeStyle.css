@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    background: rgba(143, 143, 143, 0.5);
+    bottom: 3rem;
+    z-index: 10;
+    padding-left: 2rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 50rem;
+}
+
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+.f-icon {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+  
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+  
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.navbarLogo {
+    width: 150px;
+}
+
+.nav-item {
+    margin-right: 18px;
+}
+
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 32rem;
+    }
+
+    .carousel-item > img {
+        position: absolute;
+        top: 0px;
+        left: -565px;
+        min-width: 1280px;
+        height: 32rem;
+    }
+
+}
